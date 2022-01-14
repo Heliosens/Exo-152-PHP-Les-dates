@@ -6,7 +6,9 @@ echo date("l");
 
 echo "<br><br>";
 
-echo date("Y.m.d", 1544431111);
+$d = mktime(null, null, null, 12, 10, 2018);
+
+echo date("Y.m.d", $d);
 
 echo "<br><br>";
 
